@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
 		sh 'echo "Building MyStrings.java"'
-                sh 'javac MyStrings.java'
+                sh '/usr/bin/javac MyStrings.java'
             }
         }
     }
