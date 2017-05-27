@@ -11,9 +11,9 @@ public class MyStrings {
 		String pattern = "TEST";
 		String pattern1 = "TEXT";
 		boolean found = StringOrder1(sourceStr, pattern);
-		System.out.print("StringOrder1 returned: \n" + found);
+		System.out.print("StringOrder1 returned: " + found + "\n");
 		found = StringOrder2(sourceStr, pattern1);
-		System.out.print("StringOrder2 returned: \n" + found);
+		System.out.print("StringOrder2 returned: " + found +"\n");
 	}
 	
 	public static boolean StringOrder1(String sourceStr, String pattern) {
