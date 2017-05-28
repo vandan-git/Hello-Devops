@@ -10,7 +10,7 @@ pipeline {
             }
         }
        post {
-           alwya{
+           always{
               sh 'cp /Users/MilindJoshi/MyStuff/Hello-Devops/MyStrings.war /Users/MilindJoshi/.jenkins/workspace/AutoDeploy'
              }
         }
