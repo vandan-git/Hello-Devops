@@ -9,5 +9,8 @@ pipeline {
 		sh '/usr/bin/jar -cvf /Users/MilindJoshi/MyStuff/Hello-Devops/MyStrings.war /Users/MilindJoshi/MyStuff/Hello-Devops/*'
             }
         }
+       stage ('post-build') {
+              sh 'cp /Users/MilindJoshi/MyStuff/Hello-Devops/MyStrings.war /Users/MilindJoshi/.jenkins/workspace/AutoDeploy'
+        }
     }
 }
