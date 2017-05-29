@@ -11,7 +11,7 @@ pipeline {
       }
       post {
            always{
-              sh 'cp /Users/MilindJoshi/MyStuff/Hello-Devops/MyStrings.war /Users/MilindJoshi/.jenkins/workspace/AutoDeploy'
+              sh 'cp /Users/MilindJoshi/MyStuff/Hello-Devops/MyWebsite.war /Users/MilindJoshi/.jenkins/workspace/AutoDeploy'
              }
         }
 }
